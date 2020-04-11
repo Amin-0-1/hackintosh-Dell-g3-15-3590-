@@ -11,8 +11,8 @@ Monitor Resolution : HD (1920 x 1080) @144 hz ,<br>
 Boot Mode : UEFI .<br>
 Clover Version : r5110 ,<br>
 OS Version : macOS Catalina 10.15.2 (19c57) ,<br>
-<br>
 bios version :1.9.2 <br>
+<br>
 #What is working<br>
 ------------------<br>
 brightness ,<br>
