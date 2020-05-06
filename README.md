@@ -22,11 +22,12 @@ CPU Power Management ,<br>
 WIFI (usb dongle) ,<br>
 touchpad (i2c patch needed) ,<br>
 speaker only (microphone with combojack)💔 ,<br>
-Restart, Sleep and Shutdown ,<br>
+Restart, and Shutdown ,<br>
 <br>
 #not working<br>
 --------------<br>
 internal microphone ,<br>
+Sleep, <br>
 internal wifi (OOB)<br>
 ...<br>
 
