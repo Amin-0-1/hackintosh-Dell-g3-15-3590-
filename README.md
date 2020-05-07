@@ -14,19 +14,19 @@ OS Version : macOS Catalina 10.15.2 (19c57) ,
 
 #What is working
 ------------------
-brightness ,
+brightness (key mapping with betterTouchTool app , awesome app , recommend to check it out),
 Ethernet ,
-All USB ports ,
+Internal Wifi (download wifi file and check the steps)
+All USB ports (with ssdt and port limit),
 CPU Power Management ,
-WIFI (usb dongle) ,
-touchpad (i2c patch needed) ,
+touchpad (dsdt and i2c patch) ,
 speaker only (microphone with combojack)💔 ,
 Restart, Sleep and Shutdown ,
+Sleep working with smbios 15.2 and fix sleepimage from hackintool
 
 #not working
 --------------
 internal microphone ,
-internal wifi (OOB)
 ...
 
 -----------------------------------------------------------------------------------------------------------------------------
