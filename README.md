@@ -1,4 +1,5 @@
 # Hackintosh-Dell-g3-15-3590
+
 #specs
 -------
 Processor : Intel Core i7 9750H hexa core. 
@@ -28,5 +29,6 @@ Sleep working with smbios 15.2 and fix sleepimage from hackintool
 --------------
 internal microphone ,
 ...
+
 
 -----------------------------------------------------------------------------------------------------------------------------
