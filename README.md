@@ -10,8 +10,8 @@ Storage :  SSD 240GB +  1TB. <br>
 Audio Codec : Realtek ALC295. <br>
 Monitor Resolution : HD (1920 x 1080) @144 hz ,<br>
 Boot Mode : UEFI .<br>
-Clover Version : r5110 ,<br>
-OS Version : macOS Catalina 10.15.2 (19c57) ,<br>
+Clover Version : r5110 , Now I am using Open Core<br>
+OS Version : macOS Catalina 10.15.4,<br>
 <br>
 #What is working<br>
 ------------------<br>
@@ -20,14 +20,14 @@ Ethernet ,<br>
 Internal Wifi (download wifi file and check the steps)<br>
 All USB ports (with ssdt and port limit),<br>
 CPU Power Management ,<br>
-touchpad (dsdt and i2c patch) ,<br>
+touchpad (SSDTs Patches) ,<br>
 speaker only (microphone with combojack)💔 ,<br>
 Restart, Sleep and Shutdown ,<br>
 Sleep working with smbios 15.2 and fix sleepimage from hackintool<br>
 <br>
 #not working<br>
 --------------<br>
-internal microphone ,<br>
+internal microphone, ()<br>
 ...<br>
 
 

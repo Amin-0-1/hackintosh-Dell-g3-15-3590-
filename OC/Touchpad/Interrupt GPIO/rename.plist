@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ACPI</key>
+	<dict>
+		<key>Patch</key>
+		<array>
+			<dict>
+				<key>Comment</key>
+				<string>disable SSCN</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>
+				U1NDTg==
+				</data>
+				<key>Replace</key>
+				<data>
+				WFNDTg==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>disable FMCN </string>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>
+				Rk1DTg==
+				</data>
+				<key>Replace</key>
+				<data>
+				WE1DTg==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>TPD0 _CRS to XCRS</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>
+				X0NSUwCgDg==
+				</data>
+				<key>Replace</key>
+				<data>
+				WENSUwCgDg==
+				</data>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>
