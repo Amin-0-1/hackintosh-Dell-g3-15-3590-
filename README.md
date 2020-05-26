@@ -8,6 +8,7 @@ GPU : GTX 1660Ti 6gb. <br>
 RAM : 16gb ddr4. <br>
 Storage :  SSD 240GB +  1TB. <br>
 Audio Codec : Realtek ALC295. <br>
+WIFI: Intel AC9560. <br>
 Monitor Resolution : HD (1920 x 1080) @144 hz ,<br>
 Boot Mode : UEFI .<br>
 Clover Version : r5110 , Now I am using Open Core<br>
