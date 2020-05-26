@@ -8,7 +8,7 @@
 • RAM : 16GB, 2x8GB, DDR4, 2666MHz. <br>
 • Storage : 256GB M.2 PCIe NVMe Solid Stat e Drive (Boot) + 1TB 5400 rpm 2.5" SATA Hard Drive (Storage). <br>
 • Audio Codec : Realtek ALC295. <br>
-WIFI: Intel AC9560. <br>
+• WIFI: Intel AC9560. <br>
 • Monitor Resolution : 15.6 inch FHD (1920 x 1080) 30 0 nits IPS Anti-Glare LED Back lit Display with 144Hz refresh rate,<br>
 Boot Mode : UEFI .<br>
 Clover Version : r5110 , Now I am using Open Core<br>
