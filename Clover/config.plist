@@ -10,8 +10,6 @@
 		<string>Disable other forms of CPU PM due to SSDT/Generate/PluginType=true</string>
 		<key>DSDT</key>
 		<dict>
-			<key>DropOEM_DSM</key>
-			<false/>
 			<key>Fixes</key>
 			<dict>
 				<key>AddDTGP</key>
@@ -61,7 +59,7 @@
 				<key>FixRTC</key>
 				<false/>
 				<key>FixRegions</key>
-				<true/>
+				<false/>
 				<key>FixS3D</key>
 				<false/>
 				<key>FixSATA</key>
@@ -83,104 +81,74 @@
 			<array>
 				<dict>
 					<key>Comment</key>
-					<string>change ECDV to EC</string>
+					<string>HPET _CRS to XCRS Rename</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>RUNEVg==</data>
+					<data>X0NSUwigGQ==</data>
 					<key>Replace</key>
-					<data>RUNfXw==</data>
+					<data>WENSUwigGQ==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Fix bug Skylake+</string>
+					<string>RTC IRQ 8 Patch</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>oAqTU1RBUwE=</data>
+					<data>IgABeQA=</data>
 					<key>Replace</key>
-					<data>oAqRCv8L//8=</data>
+					<data>IgAAeQA=</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change GFX0 to IGPU</string>
+					<string>TIMR IRQ 0 Patch</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>R0ZYMA==</data>
+					<data>IgEAeQA=</data>
 					<key>Replace</key>
-					<data>SUdQVQ==</data>
+					<data>IgAAeQA=</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change HDAS to HDEF</string>
+					<string>disable SSCN</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
-					<data>SERBUw==</data>
+					<data>U1NDTg==</data>
 					<key>Replace</key>
-					<data>SERFRg==</data>
+					<data>WFNDTg==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change HECI to IMEI</string>
+					<string>disable FMCN </string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
-					<data>SEVDSQ==</data>
+					<data>Rk1DTg==</data>
 					<key>Replace</key>
-					<data>SU1FSQ==</data>
+					<data>WE1DTg==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change SAT0 to SATA</string>
+					<string>TPD0 _CRS to XCRS</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>U0FUMA==</data>
+					<data>X0NSUwCgDg==</data>
 					<key>Replace</key>
-					<data>U0FUQQ==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change EHC1 to EH01</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>RUhDMQ==</data>
-					<key>Replace</key>
-					<data>RUgwMQ==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change EHC2 to EH02</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>RUhDMg==</data>
-					<key>Replace</key>
-					<data>RUgwMg==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change XHC1 to XHC</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>V0VoRE1R</data>
-					<key>Replace</key>
-					<data>V0VoRFh3</data>
+					<data>WENSUwCgDg==</data>
 				</dict>
 			</array>
 		</dict>
 		<key>DisableASPM</key>
-		<true/>
+		<false/>
 		<key>FixHeaders</key>
-		<true/>
+		<false/>
 		<key>FixMCFG</key>
-		<true/>
+		<false/>
 		<key>HaltEnabler</key>
-		<true/>
+		<false/>
 		<key>SSDT</key>
 		<dict>
 			<key>DropOem</key>
@@ -197,7 +165,16 @@
 		</dict>
 		<key>SortedOrder</key>
 		<array>
-			<string>SSDT-UIAC-ALL.aml</string>
+			<string>SSDT-EC-USBX.aml</string>
+			<string>SSDT-dGPU-Off.aml</string>
+			<string>SSDT-PLUG.aml</string>
+			<string>SSDT-AWAC.aml</string>
+			<string>SSDT-PMC.aml</string>
+			<string>SSDT-SBUS-MCHC.aml</string>
+			<string>SSDT-HPET.aml</string>
+			<string>SSDT-TPD0.aml</string>
+			<string>SSDT-PNLFCFL.aml</string>
+			<string>SSDT-DATA.aml</string>
 		</array>
 	</dict>
 	<key>Boot</key>
@@ -205,7 +182,7 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>dart=0 -wegnoegpu -gux_nosleep nv_disable=1 keepsyms=1 -cdfon darkwake=no</string>
+		<string>keepsyms=1 debug=0x100 alcdelay=1000</string>
 		<key>DefaultLoader</key>
 		<string>boot.efi</string>
 		<key>DefaultVolume</key>
@@ -222,7 +199,7 @@
 	<key>CPU</key>
 	<dict>
 		<key>HWPEnable</key>
-		<true/>
+		<false/>
 		<key>UseARTFrequency</key>
 		<false/>
 	</dict>
@@ -406,130 +383,13 @@
 		<key>AppleIntelCPUPM</key>
 		<false/>
 		<key>AppleRTC</key>
-		<true/>
+		<false/>
 		<key>DellSMBIOSPatch</key>
 		<true/>
 		<key>KernelCpu</key>
 		<false/>
 		<key>KernelLapic</key>
-		<true/>
-		<key>KernelPm</key>
-		<true/>
-		<key>KextsToPatch</key>
-		<array>
-			<dict>
-				<key>Comment</key>
-				<string>USB port limit patch by PMHeart</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>g32IDw+DpwQAAA==</data>
-				<key>InfoPlistPatch</key>
-				<true/>
-				<key>MatchOS</key>
-				<string>10.13.x</string>
-				<key>Name</key>
-				<string>com.apple.driver.usb.AppleUSBXHCI</string>
-				<key>Replace</key>
-				<data>g32ID5CQkJCQkA==</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>USB port limit patch #1 10.14.x modify by DalianSky(credit ydeng)</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>g/sPDw==</data>
-				<key>InfoPlistPatch</key>
-				<true/>
-				<key>MatchOS</key>
-				<string>10.14.x</string>
-				<key>Name</key>
-				<string>com.apple.iokit.IOUSBHostFamily</string>
-				<key>Replace</key>
-				<data>g/s/Dw==</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>USB port limit patch #2 10.14.x modify by DalianSky(credit PMHeart)</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>g+MP0w==</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.14.x</string>
-				<key>Name</key>
-				<string>com.apple.iokit.IOUSBHostFamily</string>
-				<key>Replace</key>
-				<data>g+M/0w==</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>USB Port limit patch #3 10.14.x modify by DalianSky(credits PMheart)</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>g/sPDw==</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.14.x</string>
-				<key>Name</key>
-				<string>com.apple.driver.usb.AppleUSBXHCI</string>
-				<key>Replace</key>
-				<data>g/s/Dw==</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>USB Port limit patch #4 10.14.x modify by DalianSky(credits PMheart)</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>g/8PDw==</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.14.x</string>
-				<key>Name</key>
-				<string>com.apple.driver.usb.AppleUSBXHCI</string>
-				<key>Replace</key>
-				<data>g/8/Dw==</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>USB Port limit patch #1(credits PMheart)</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>g/sPDw==</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.15.x</string>
-				<key>Name</key>
-				<string>com.apple.iokit.IOUSBHostFamily</string>
-				<key>Replace</key>
-				<data>g/s/Dw==</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>USB Port limit patch #2(credits PMheart)</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>g/kPDw==</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.15.x</string>
-				<key>Name</key>
-				<string>com.apple.driver.usb.AppleUSBXHCI</string>
-				<key>Replace</key>
-				<data>g/k/Dw==</data>
-			</dict>
-		</array>
+		<false/>
 		<key>PanicNoKextDump</key>
 		<true/>
 	</dict>
@@ -540,9 +400,9 @@
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
 		<key>MLB</key>
-		<string>C02920306CDN9PR8C</string>
+		<string> C02916501GUJH4RFB</string>
 		<key>ROM</key>
-		<data>hgKj7pUu</data>
+		<data>ESIzAAAA</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
@@ -587,9 +447,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro15,2</string>
 		<key>SerialNumber</key>
-		<string>C02WN03SJHCC</string>
+		<string>C02YLVY0JHCC</string>
 		<key>SmUUID</key>
-		<string>C8F33161-8502-43AC-AD84-0BC3B2068D5A</string>
+		<string>B4D4880B-58CB-44A4-BF7C-C0DF08FD8EFB</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
