@@ -11,20 +11,21 @@
 • WIFI: Intel AC9560. <br>
 • Monitor Resolution : 15.6 inch FHD (1920 x 1080) 30 0 nits IPS Anti-Glare LED Back lit Display with 144Hz refresh rate,<br>
 Boot Mode : UEFI .<br>
-Clover Version : r5110 , Now I am using Open Core<br>
-OS Version : macOS Catalina 10.15.4,<br>
+Clover Version : r5119  <br>
+Open Core version : r0.5.9<br>
+OS Version : macOS Catalina 10.15.5,<br>
 <br>
 #What is working<br>
 ------------------<br>
 brightness (key mapping with betterTouchTool app , awesome app , recommend to check it out),<br>
 Ethernet ,<br>
 Internal Wifi (download wifi file and check the steps)<br>
-All USB ports (with ssdt and port limit),<br>
+All USB ports (with USBPort.kext that I made myself),<br>
 CPU Power Management ,<br>
-touchpad (SSDTs Patches) ,<br>
+touchpad (SSDT Patches) ,<br>
 speaker only (microphone with combojack)💔 ,<br>
 Restart, Sleep and Shutdown ,<br>
-Sleep working with smbios 15.2 and fix sleepimage from hackintool<br>
+Sleep<br>
 <br>
 #not working<br>
 --------------<br>
