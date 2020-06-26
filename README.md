@@ -23,7 +23,7 @@ Internal Wifi (download wifi file and check the steps)<br>
 All USB ports (with USBPort.kext that I made myself),<br>
 CPU Power Management (SSDT-Plug.aml) ,<br>
 touchpad (SSDT Patches) ,<br>
-speaker only (microphone with combojack)💔 ,<br>
+speaker only with layout (21 for best quality and high of sound) (microphone with combojack)💔 ,<br>
 Restart, Sleep and Shutdown ,<br>
 Sleep<br>
 <br>
