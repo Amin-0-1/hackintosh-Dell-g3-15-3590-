@@ -517,7 +517,6 @@
 			<dict>
 				<key>BundlePath</key>
 				<string>IntelBluetoothFirmware.kext</string>
-<<<<<<< HEAD
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
@@ -534,8 +533,6 @@
 			<dict>
 				<key>BundlePath</key>
 				<string>IntelBluetoothInjector.kext</string>
-=======
->>>>>>> 1c06693f1eb8399db8ad24785bb66fc7aa03eb93
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
