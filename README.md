@@ -21,7 +21,7 @@ brightness (key mapping with betterTouchTool app , awesome app , recommend to ch
 Ethernet ,<br>
 Internal Wifi (download wifi file and check the steps)<br>
 All USB ports (with USBPort.kext that I made myself),<br>
-CPU Power Management ,<br>
+CPU Power Management (SSDT-Plug.aml) ,<br>
 touchpad (SSDT Patches) ,<br>
 speaker only (microphone with combojack)💔 ,<br>
 Restart, Sleep and Shutdown ,<br>
@@ -31,6 +31,10 @@ Sleep<br>
 --------------<br>
 internal microphone, ()<br>
 ...<br>
+
+note<br>
+I followed that guide after installing with clover in order to convert to open core , almost everything <br> that I reach till now without (touchpad & sound off after awaking from sleep) from there<br> 
+https://dortania.github.io/vanilla-laptop-guide/
 
 
 -----------------------------------------------------------------------------------------------------------------------------
