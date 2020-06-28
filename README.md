@@ -37,7 +37,7 @@ note<br>
 I followed that guide after installing with clover in order to convert to open core , almost everything <br> that I reach till now without (touchpad & sound off after awaking from sleep) from there<br> 
 https://dortania.github.io/vanilla-laptop-guide/ <br>
 the problem of disconnection of sound after awaking from sleep has been fixed with some editing in <br>
-apple alc kext copy it from my oc or clover folder and try it with your own<br> 
+apple alc kext copy it from my oc or clover folder and try it with your own (with layout id 21 for better sound)<br> 
 
 
 -----------------------------------------------------------------------------------------------------------------------------
