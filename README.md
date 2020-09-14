@@ -24,8 +24,8 @@ All USB ports (with USBPort.kext that I made myself),<br>
 CPU Power Management (SSDT-Plug.aml) ,<br>
 touchpad (SSDT Patches) ,<br>
 speaker only with layout (21 for best quality and high of sound) (microphone with combojack)💔 ,<br>
-Restart, Sleep and Shutdown ,<br>
-Sleep<br>
+Restart , Shutdown ,<br>
+
 <br>
 #not working<br>
 --------------<br>
