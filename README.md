@@ -26,7 +26,7 @@ What is working<br>
 • Touchpad (SSDT Patche) 'note that acpibattery.kext causes touchpad lag , use smcbatterymanager.kext' <br>
 • Brightness (including f11 and f12) <br>
 • Battery Indicator <br>
-• Ethernet<br>  
+• Ethernet  
 • Wifi <br>
 • Bluetooth <br>
 • All USB Port (including usb type c) <br>
