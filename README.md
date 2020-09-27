@@ -35,7 +35,7 @@ What is working<br>
 
 not working<br>
 --------------<br>
-• internal microphone<br>
+• internal microphone (Smart Sound Technology is not supported by mac)<br>
 
 
 
