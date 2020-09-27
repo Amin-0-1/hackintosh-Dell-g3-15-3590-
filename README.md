@@ -18,6 +18,7 @@ Touchpad : I2C HID TPD0
 <br>
 What is working<br>
 ------------------<br>
+
 • QE/CI Graphics Intel UHD 630 <br>
 • Restart, Sleep and Shutdown (With and without LID) <br>
 • CPU Power Management <br>
@@ -34,7 +35,6 @@ What is working<br>
 not working<br>
 --------------<br>
 • internal microphone<br>
-
 
 
 
