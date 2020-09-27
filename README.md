@@ -20,7 +20,7 @@ What is working<br>
 ------------------<br>
 
 • QE/CI Graphics Intel UHD 630 <br>
-• Restart, Sleep and Shutdown (With and without LID) <br>
+• Restart, Sleep and Shutdown (With and without Closing LID) <br>
 • CPU Power Management <br>
 • Internal speaker , headphone (with microphone) <br>
 • Touchpad (SSDT Patche) 'note that acpibattery.kext causes touchpad lag , use smcbatterymanager.kext' <br>
