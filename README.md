@@ -15,6 +15,7 @@ Touchpad : I2C HID TPD0<br>
 •Clover Version : r5119  <br>
 •Open Core version : r0.6.0<br>
 •OS Version : macOS Catalina 10.15.6,<br>
+•Bios Version : 1.11.1 <br>
 <br>
 What is working<br>
 ------------------<br>
