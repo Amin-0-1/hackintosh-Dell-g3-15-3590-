@@ -23,10 +23,10 @@ What is working<br>
 • Restart, Sleep and Shutdown (With and without LID) <br>
 • CPU Power Management <br>
 • Internal speaker , headphone (with microphone) <br>
-• Touchpad (SSDT Patche) 'note that acpibattery.kext causes    touchpad lag' <br>
+• Touchpad (SSDT Patche) 'note that acpibattery.kext causes touchpad lag , use smcbatterymanager.kext' <br>
 • Brightness (including f11 and f12) <br>
 • Battery Indicator <br>
-• Ethernet <br>  
+• Ethernet<br>  
 • Wifi <br>
 • Bluetooth <br>
 • All USB Port (including usb type c) <br>
