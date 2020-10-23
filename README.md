@@ -31,7 +31,7 @@ What is working<br>
 • Wifi <br>
 • Bluetooth <br>
 • All USB Port (including usb type c) <br>
-• External Monitor work with type c caple
+• External Monitor work with type c cable
 
 not working<br>
 --------------<br>
