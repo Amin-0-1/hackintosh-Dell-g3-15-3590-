@@ -12,15 +12,14 @@ specs<br>
 Touchpad : I2C HID TPD0
 • Monitor Resolution : 15.6 inch FHD (1920 x 1080) 30 0 nits IPS Anti-Glare LED Back lit Display with 144Hz refresh rate,<br>
 •Boot Mode : UEFI .<br>
-•Clover Version : r5119  <br>
-•Open Core version : r0.6.0<br>
-•OS Version : macOS Catalina 10.15.6,<br>
+•Open Core version : r0.6.3<br>
+•OS Version : macOS BigSur 11.0.1,<br>
 <br>
 What is working<br>
 ------------------<br>
 
 • QE/CI Graphics Intel UHD 630 <br>
-• Restart, Sleep and Shutdown (With and without LID) <br>
+• Restart, Sleep and Shutdown (sometimes wake needs second press , I am working on it now) <br>
 • CPU Power Management <br>
 • Internal speaker , headphone (with microphone) <br>
 • Touchpad (SSDT Patche) 'note that acpibattery.kext causes    touchpad lag' <br>
