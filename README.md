@@ -9,31 +9,33 @@ specs<br>
 • Storage : 256GB M.2 PCIe NVMe Solid Stat e Drive (Boot) + 1TB 5400 rpm 2.5" SATA Hard Drive (Storage). <br>
 • Audio Codec : Realtek ALC295. <br>
 • WIFI: Intel AC9560. <br>
-Touchpad : I2C HID TPD0
+Touchpad : I2C HID TPD0<br>
 • Monitor Resolution : 15.6 inch FHD (1920 x 1080) 30 0 nits IPS Anti-Glare LED Back lit Display with 144Hz refresh rate,<br>
 •Boot Mode : UEFI .<br>
+
 •Open Core version : r0.6.3<br>
 •OS Version : macOS BigSur 11.0.1,<br>
+
 <br>
 What is working<br>
 ------------------<br>
 
 • QE/CI Graphics Intel UHD 630 <br>
-• Restart, Sleep and Shutdown (sometimes wake needs second press , I am working on it now) <br>
+• Restart, Sleep and Shutdown (With and without Closing LID) <br>
 • CPU Power Management <br>
 • Internal speaker , headphone (with microphone) <br>
-• Touchpad (SSDT Patche) 'note that acpibattery.kext causes    touchpad lag' <br>
+• Touchpad (SSDT Patche) 'note that acpibattery.kext causes touchpad lag , use smcbatterymanager.kext' <br>
 • Brightness (including f11 and f12) <br>
 • Battery Indicator <br>
-• Ethernet <br>  
+• Ethernet  
 • Wifi <br>
 • Bluetooth <br>
 • All USB Port (including usb type c) <br>
-• External Monitor work with type c caple
+• External Monitor work with type c cable
 
 not working<br>
 --------------<br>
-• internal microphone<br>
+• internal microphone (Smart Sound Technology is not supported by mac)<br>
 
 
 
