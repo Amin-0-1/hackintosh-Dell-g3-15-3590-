@@ -1,9 +1,0 @@
-1- download itlwm kext from 
-	https://github.com/OpenIntelWireless/itlwm/releases/tag/v1.1.0 
-2- download heliport 
-	https://github.com/OpenIntelWireless/HeliPort/releases/tag/v1.0.1
-3- drag heliport to application folder 
-4- settings/users & groups / login items 
-	unlock password and add heliport app 
-5- put the kext to efi folder 
-6- have fun 😍

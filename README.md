@@ -13,7 +13,7 @@ Touchpad : I2C HID TPD0<br>
 • Monitor Resolution : 15.6 inch FHD (1920 x 1080) 30 0 nits IPS Anti-Glare LED Back lit Display with 144Hz refresh rate,<br>
 •Boot Mode : UEFI .<br>
 
-•Open Core version : r0.6.3<br>
+•Open Core version : r0.6.5<br>
 •OS Version : macOS BigSur 11.0.1,<br>
 
 <br>
