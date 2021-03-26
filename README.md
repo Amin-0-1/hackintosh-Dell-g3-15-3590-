@@ -26,7 +26,7 @@ What is working<br>
 • Restart, Sleep and Shutdown (With and without Closing LID) <br>
 • CPU Power Management <br>
 • Internal speaker , headphone (with microphone) <br>
-• Touchpad (SSDT Patche) 'note that acpibattery.kext causes touchpad lag , use smcbatterymanager.kext' <br>
+• Touchpad (SSDT Patche Interrupt GPIO Pinning) 'note that acpibattery.kext causes touchpad lag , use smcbatterymanager.kext' <br>
 • Brightness (including f11 and f12) <br>
 • Battery Indicator <br>
 • Ethernet  
@@ -45,5 +45,4 @@ not working<br>
 
 * for better power saving replace the CPUFriendDataProvider.kext from better power management directory in this repo intor the kext
   forlder on OC/Kexts (note that it saves the battery but on the other hand it gives you less performance so i recommend using the one inside the oc )
-  
-  * to make the native wifi icon work enable AirportItlwm.kext in config.plist and disable the Itlwm.kext one, but note that AirportItlwm is not working with hidden networks till now, if you want connection with hidden netowrks use Itlwm.kext + heliport.app 
+* to make the native wifi icon work enable AirportItlwm.kext in config.plist and disable the Itlwm.kext one, but note that AirportItlwm is not working with hidden networks till now, if you want connection with hidden netowrks use Itlwm.kext + heliport.app 
