@@ -11,10 +11,12 @@ specs<br>
 • WIFI: Intel AC9560. <br>
 • Touchpad : I2C HID TPD0<br>
 • Monitor Resolution : 15.6 inch FHD (1920 x 1080) 30 0 nits IPS Anti-Glare LED Back lit Display with 144Hz refresh rate,<br>
+• Bios Version : 1.12.0 .<br>
 • Boot Mode : UEFI .<br>
 
-•Open Core version : r0.6.5<br>
-•OS Version : macOS BigSur 11.0.1,<br>
+
+•Open Core version : r0.6.8<br>
+•OS Version : macOS BigSur 11.2.3,<br>
 
 <br>
 What is working<br>
@@ -36,7 +38,12 @@ What is working<br>
 not working<br>
 --------------<br>
 • internal microphone (Smart Sound Technology is not supported by mac)<br>
-
+• awaking from sleep needs some keyboard presses (acpi_wake_type did not fix it)
 
 
 -----------------------------------------------------------------------------------------------------------------------------
+
+* for better power saving replace the CPUFriendDataProvider.kext from better power management directory in this repo intor the kext
+  forlder on OC/Kexts (note that it saves the battery but on the other hand it gives you less performance so i recommend using the one inside the oc )
+  
+  * to make the native wifi icon work enable AirportItlwm.kext in config.plist and disable the Itlwm.kext one, but note that AirportItlwm is not working with hidden networks till now, if you want connection with hidden netowrks use Itlwm.kext + heliport.app 
