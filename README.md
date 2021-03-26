@@ -43,6 +43,6 @@ not working<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-* for better power saving replace the CPUFriendDataProvider.kext from better power management directory in this repo intor the kext
+* for better power saving replace the CPUFriendDataProvider.kext from better power management directory in this repo into the kexts
   forlder on OC/Kexts (note that it saves the battery but on the other hand it gives you less performance so i recommend using the one inside the oc )
-* to make the native wifi icon work enable AirportItlwm.kext in config.plist and disable the Itlwm.kext one, but note that AirportItlwm is not working with hidden networks till now, if you want connection with hidden netowrks use Itlwm.kext + heliport.app 
+* to make the native wifi icon work enable AirportItlwm.kext in config.plist and disable the Itlwm.kext one, but note that AirportItlwm is not working with hidden networks till now, if you want connection with hidden netowrks use Itlwm.kext + heliport.app(included in wifi directory)
