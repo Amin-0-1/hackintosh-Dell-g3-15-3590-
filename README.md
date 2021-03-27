@@ -26,7 +26,7 @@ What is working<br>
 • Restart, Sleep and Shutdown (With and without Closing LID) <br>
 • CPU Power Management <br>
 • Internal speaker , headphone (with microphone) <br>
-• Touchpad (SSDT Patche) 'note that acpibattery.kext causes touchpad lag , use smcbatterymanager.kext' <br>
+• Touchpad (SSDT Patche Interrupt GPIO Pinning) 'note that acpibattery.kext causes touchpad lag , use smcbatterymanager.kext' <br>
 • Brightness (including f11 and f12) <br>
 • Battery Indicator <br>
 • Ethernet  
@@ -42,5 +42,5 @@ not working<br>
 
 
 -----------------------------------------------------------------------------------------------------------------------------
-  
+
 * to make the native wifi icon work enable AirportItlwm.kext in config.plist and disable the Itlwm.kext one, but note that AirportItlwm is not working with hidden networks till now, if you want connection with hidden netowrks use Itlwm.kext + heliport.app 
