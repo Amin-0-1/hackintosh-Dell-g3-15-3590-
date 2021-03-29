@@ -44,3 +44,4 @@ not working<br>
 -----------------------------------------------------------------------------------------------------------------------------
 
 * to make the native wifi icon work enable AirportItlwm.kext in config.plist and disable the Itlwm.kext one, but note that AirportItlwm is not working with hidden networks till now, if you want connection with hidden netowrks use Itlwm.kext + heliport.app 
+* prtScr key disables touchpad & winKey + prtScr disables keyboard
