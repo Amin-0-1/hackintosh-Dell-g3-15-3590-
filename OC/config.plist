@@ -337,7 +337,7 @@
 			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
 			<dict>
 				<key>acpi-wake-type</key>
-				<data>AQ==</data>
+				<data>AQAAAA==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x0,0x0)</key>
 			<dict>
@@ -478,8 +478,12 @@
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,31,3</string>
+				<key>alc-delay</key>
+				<integer>1000</integer>
 				<key>device_type</key>
 				<string>Multimedia audio controller</string>
+				<key>layout-id</key>
+				<data>FQAAAA==</data>
 				<key>model</key>
 				<string>Cannon Lake PCH cAVS</string>
 			</dict>
@@ -661,7 +665,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AirportItlwm</string>
 				<key>MaxKernel</key>
@@ -1512,7 +1516,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 debug=0x100 alcid=21 alcdelay=1000 darkwake=8 swd_panic=1 igfxfw=2 igfxonln=1</string>
+				<string>keepsyms=1 debug=0x100 swd_panic=1 igfxfw=2 igfxonln=1 darkwake=2 forceRenderStandby=0 </string>
 				<key>csr-active-config</key>
 				<data>/w8AAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1605,9 +1609,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro16,4</string>
 			<key>SystemSerialNumber</key>
-			<string>C02DVQYHMD6T</string>
+			<string>C02C9MZ4MD6T</string>
 			<key>SystemUUID</key>
-			<string>2F7E9E67-E94D-4046-8F5C-DD11954FA021</string>
+			<string>BE4C8BAD-60DF-4244-8C3C-5495563D9B28</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
@@ -1616,9 +1620,9 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02051609J900008C</string>
+			<string>C020087014N0000FB</string>
 			<key>ProcessorType</key>
-			<integer>1793</integer>
+			<integer>0</integer>
 			<key>ROM</key>
 			<data>cr4YPZso</data>
 			<key>SpoofVendor</key>
@@ -1628,9 +1632,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro16,4</string>
 			<key>SystemSerialNumber</key>
-			<string>C02DVQYHMD6T</string>
+			<string>C02C9MZ4MD6T</string>
 			<key>SystemUUID</key>
-			<string>2F7E9E67-E94D-4046-8F5C-DD11954FA021</string>
+			<string>BE4C8BAD-60DF-4244-8C3C-5495563D9B28</string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
@@ -1641,13 +1645,13 @@
 			<key>FirmwareFeaturesMask</key>
 			<data>f////wAAAAA=</data>
 			<key>MLB</key>
-			<string>C02051609J900008C</string>
+			<string>C020087014N0000FB</string>
 			<key>ROM</key>
 			<data>cr4YPZso</data>
 			<key>SystemSerialNumber</key>
-			<string>C02DVQYHMD6T</string>
+			<string></string>
 			<key>SystemUUID</key>
-			<string>2F7E9E67-E94D-4046-8F5C-DD11954FA021</string>
+			<string>BE4C8BAD-60DF-4244-8C3C-5495563D9B28</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1761,8 +1765,6 @@
 			<key>AppleBootPolicy</key>
 			<false/>
 			<key>AppleDebugLog</key>
-			<false/>
-			<key>AppleEvent</key>
 			<false/>
 			<key>AppleFramebufferInfo</key>
 			<false/>
