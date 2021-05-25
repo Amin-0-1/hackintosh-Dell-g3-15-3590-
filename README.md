@@ -15,7 +15,7 @@ specs<br>
 • Boot Mode : UEFI .<br>
 
 
-•Open Core version : r0.6.8<br>
+•Open Core version : r0.6.9<br>
 •OS Version : macOS BigSur 11.2.3,<br>
 
 <br>
