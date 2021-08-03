@@ -63,8 +63,7 @@ HeadPhone                                              |    Mic
 
 ✅ All USB Port (including usb type c) <br>
 ✅ External Monitor work with type c cable
-✅ External Monitor work with type c cable
- prtScr key disables touchpad & winKey + prtScr disables keyboard
+✅ prtScr key disables touchpad & winKey + prtScr disables keyboard
 
 ## what is not working
 
