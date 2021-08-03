@@ -28,9 +28,9 @@ Model | `MacBookPro16,4` | OS | `Big Sur 11.0.1` | OC | `0.7.1`
 
 ## what is working
 
-✅ QE/CI Graphics Intel UHD 630 <br>
-✅ Restart, Sleep and Shutdown (With and without Closing LID) <br>
-✅ CPU Power Management <br>
+✅  QE/CI Graphics Intel UHD 630 <br>
+✅  Restart, Sleep and Shutdown (With and without Closing LID) <br>
+✅  CPU Power Management <br>
 
 Idle                                                  |   Boost 
 ---                                                   |    --- 
@@ -38,7 +38,7 @@ Idle                                                  |   Boost
 
 ---
 
-✅ Internal speaker , headphone (with microphone)<br>
+✅  Internal speaker , headphone (with microphone)<br>
 HeadPhone                                              |    Mic 
 ---                                                    |    --- 
 <img src="Images/sound.png" width="500" height="500">  |   <img src="Images/headphone%20mic.png" width="500" height="500">
@@ -47,26 +47,26 @@ HeadPhone                                              |    Mic
 
 
 
-✅ Touchpad (SSDT Patche Interrupt GPIO Pinning) 'note that acpibattery.kext causes touchpad lag , using smcbatterymanager.kext fixed the issue' <br>
+✅  Touchpad (SSDT Patche Interrupt GPIO Pinning) 'note that acpibattery.kext causes touchpad lag , using smcbatterymanager.kext fixed the issue' <br>
 <img src="Images/touchpad.png" width="500" height="500">
 
 ---
 
-✅ Brightness (including f11 and f12) <br>
-✅ Battery Indicator <br>
-✅ Ethernet  
-✅ Wifi <br>
-✅ Bluetooth <br>
+✅  Brightness (including f11 and f12) <br>
+✅  Battery Indicator <br>
+✅  Ethernet  
+✅  Wifi <br>
+✅  Bluetooth <br>
 
 <img src="Images/Bluetooth.png" width="500" height="500">
 
 
-✅ All USB Port (including usb type c) <br>
-✅ External Monitor work with type c cable
-✅ prtScr key disables touchpad & winKey + prtScr disables keyboard
+✅  All USB Port (including usb type c) <br>
+✅  External Monitor work with type c cable <br>
+✅  prtScr key disables touchpad & winKey + prtScr disables keyboard
 
 ## what is not working
 
-❌ internal microphone (Smart Sound Technology is not supported by mac)<br>
-❌ awaking from sleep needs some keyboard presses (acpi_wake_type did not fix it)
+❌  internal microphone (Smart Sound Technology is not supported by mac)<br>
+❌  awaking from sleep needs some keyboard presses (acpi_wake_type did not fix it)
 
