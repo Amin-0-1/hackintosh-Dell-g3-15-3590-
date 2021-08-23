@@ -13,7 +13,7 @@ Storage   | 256GB M.2 PCIe NVMe Solid State Drive (Boot) + 1TB 5400 rpm 2.5" SAT
 Audio     | Realtek ALC295
 WIFI      | Intel AC9560 
 Touchpad  | I2C1 HID TPD0
-Bios      | 1.13.0 `latest`
+Bios      | 1.9.0 `Recommended`
 
 
 
