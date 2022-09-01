@@ -56,10 +56,6 @@ HeadPhone                                              |    Mic
 ✅  Battery Indicator <br>
 ✅  Ethernet  
 ✅  Wifi <br>
-
-<img src="Images/Bluetooth.png" width="500" height="500">
-
-
 ✅  All USB Port (including usb type c) <br>
 ✅  External Monitor work with type c cable <br>
 ✅  prtScr key disables touchpad & winKey + prtScr disables keyboard
@@ -67,6 +63,6 @@ HeadPhone                                              |    Mic
 ## what is not working
 
 ❌  internal microphone (Smart Sound Technology is not supported by mac)<br>
-❌  awaking from sleep needs some keyboard presses (acpi_wake_type did not fix it)
+❌  awaking from sleep needs some keyboard presses (acpi_wake_type did not fix it) <br>
 ❌  Bluetooth (many problems appear on Monterey regarding bluetooth in many cards, ) <br>
 
