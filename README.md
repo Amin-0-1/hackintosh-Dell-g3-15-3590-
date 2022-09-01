@@ -20,7 +20,7 @@ Bios      | 1.9.0 `Recommended`
 
 ## System configuration
 
-Model | `MacBookPro16,4` | OS | `Big Sur 11.0.1` | OC | `0.7.1`
+Model | `MacBookPro16,4` | OS | `Monterey 12.5` | OC | `0.8.3`
 ---|---|---|---|---|---
 
 ![](Images/about.png)
@@ -56,7 +56,6 @@ HeadPhone                                              |    Mic
 ✅  Battery Indicator <br>
 ✅  Ethernet  
 ✅  Wifi <br>
-✅  Bluetooth <br>
 
 <img src="Images/Bluetooth.png" width="500" height="500">
 
@@ -69,4 +68,5 @@ HeadPhone                                              |    Mic
 
 ❌  internal microphone (Smart Sound Technology is not supported by mac)<br>
 ❌  awaking from sleep needs some keyboard presses (acpi_wake_type did not fix it)
+❌  Bluetooth (many problems appear on Monterey regarding bluetooth in many cards, ) <br>
 
