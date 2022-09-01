@@ -63,6 +63,5 @@ HeadPhone                                              |    Mic
 ## what is not working
 
 ❌  internal microphone (Smart Sound Technology is not supported by mac)<br>
-❌  awaking from sleep needs some keyboard presses (acpi_wake_type did not fix it) <br>
 ❌  Bluetooth (many problems appear on Monterey regarding bluetooth in many cards, ) <br>
 
