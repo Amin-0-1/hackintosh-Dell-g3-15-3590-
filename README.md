@@ -20,7 +20,7 @@ Bios      | 1.9.0 `Recommended`
 
 ## System configuration
 
-Model | `MacBookPro16,1` | OS | `Monterey 12.5` | OC | `0.8.3`
+Model | `MacBookPro16,1` | OS | `Monterey 12.5` | OC | `0.8.4`
 ---|---|---|---|---|---
 
 ![](Images/about.png)
