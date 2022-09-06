@@ -34,7 +34,7 @@ Model | `MacBookPro16,1` | OS | `Monterey 12.5` | OC | `0.8.4`
 
 Idle                                                  |   Boost 
 ---                                                   |    --- 
-<img src="Images/idle.png" width="600" height="600">  |   <img src="Images/boost.png" width="500" height="600">
+<img src="Images/idle.png" width="600" height="500">  |   <img src="Images/boost.png" width="500" height="500">
 
 ---
 
