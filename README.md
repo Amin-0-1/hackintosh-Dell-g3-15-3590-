@@ -48,7 +48,10 @@ HeadPhone                                              |    Mic
 
 
 ✅  Touchpad (SSDT Patche Interrupt GPIO Pinning) 'note that acpibattery.kext causes touchpad lag , using smcbatterymanager.kext fixed the issue' <br>
-<img src="Images/touchpad.png" width="500" height="500"> | <img src="Images/touchpad2.png" width="500" height="500"> 
+
+Settings                                                  |    Geni2c 
+---                                                       |    --- 
+<img src="Images/touchpad.png" width="500" height="500">  |    <img src="Images/touchpad2.png" width="500" height="500"> 
 
 ---
 
