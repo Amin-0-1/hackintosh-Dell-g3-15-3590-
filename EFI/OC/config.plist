@@ -90,7 +90,7 @@
                     <key>Comment</key>
                     <string>SSDT-UIAC.aml</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Path</key>
                     <string>SSDT-UIAC.aml</string>
                 </dict>
@@ -269,7 +269,7 @@
                 <key>ProtectSecureBoot</key>
                 <false/>
                 <key>ProtectUefiServices</key>
-                <true/>
+                <false/>
                 <key>ProvideCustomSlide</key>
                 <true/>
                 <key>ProvideMaxSlide</key>
@@ -807,7 +807,7 @@
                     <key>Comment</key>
                     <string>V2.2.0 | IntelBTPatcher.kext</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/IntelBTPatcher</string>
                     <key>MaxKernel</key>
@@ -955,7 +955,7 @@
                 <key>PickerMode</key>
                 <string>External</string>
                 <key>PickerVariant</key>
-                <string>Auto</string>
+                <string>Dark</string>
                 <key>PollAppleHotKeys</key>
                 <true/>
                 <key>ShowPicker</key>
@@ -1071,7 +1071,7 @@
                 <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
                 <dict>
                     <key>boot-args</key>
-                    <string>watchdog=0 igfxonln=1 -igfxblr -noDC9 igfxfw=2 igfxagdc=0 alc-verbs=1 -cdfon keepsyms=1 swd_panic=1 forceRenderStandby=0 alcdelay=1000 alcid=21</string>
+                    <string>watchdog=0 igfxonln=1 -igfxblr -noDC9 igfxfw=2 igfxagdc=0 -cdfon keepsyms=1 swd_panic=1 forceRenderStandby=0 alc-verbs=1 uia_exclude=HS04;HS06;HS07;HS08;HS10;HS11;HS12;HS13;USR1;USR2;SS02;SS03;SS05;SS06;SS07;SS08</string>
                     <key>csr-active-config</key>
                     <data>/w8AAA==</data>
                     <key>prev-lang:kbd</key>
@@ -1114,13 +1114,13 @@
                 <key>AdviseFeatures</key>
                 <true/>
                 <key>MLB</key>
-                <string>C02940104QXN9PR1F</string>
+                <string>C02135200GUN9PR1M</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
                 <integer>0</integer>
                 <key>ROM</key>
-                <data>wJ9C1yxy</data>
+                <data>ABfyABEi</data>
                 <key>SpoofVendor</key>
                 <false/>
                 <key>SystemMemoryStatus</key>
@@ -1128,9 +1128,9 @@
                 <key>SystemProductName</key>
                 <string>MacBookPro16,1</string>
                 <key>SystemSerialNumber</key>
-                <string>C02DCCY5MD6T</string>
+                <string>C02G9AZ7MD6N</string>
                 <key>SystemUUID</key>
-                <string>5F25ABE5-37EB-4D58-AA93-ADD526980C31</string>
+                <string>62628836-F0A1-4807-A9C0-80AE8FFB074F</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
