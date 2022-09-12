@@ -86,14 +86,6 @@
                     <key>Path</key>
                     <string>SSDT-TPDX.aml</string>
                 </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string>SSDT-UIAC.aml</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Path</key>
-                    <string>SSDT-UIAC.aml</string>
-                </dict>
             </array>
             <key>Delete</key>
             <array/>
@@ -310,18 +302,8 @@
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
-                    <key>framebuffer-fbmem</key>
-                    <data>AACQAA==</data>
-                    <key>framebuffer-patch-enable</key>
-                    <data>AQAAAA==</data>
-                    <key>framebuffer-stolenmem</key>
-                    <data>AAAwAQ==</data>
-                    <key>framebuffer-unifiedmem</key>
-                    <data>AAAAwA==</data>
-                    <key>igfxfw</key>
-                    <data>AgAAAA==</data>
-                    <key>model</key>
-                    <string>Intel UHD Graphics 630</string>
+                    <key>AAPL,ig-platform-id</key>
+                    <data>CQClPg==</data>
                 </dict>
             </dict>
             <key>Delete</key>
@@ -335,13 +317,13 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>AirportItlwm.kext</string>
+                    <string>Lilu.kext</string>
                     <key>Comment</key>
-                    <string>V2.1.0 | AirportItlwm.kext</string>
+                    <string>V1.6.2 | Lilu.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/AirportItlwm</string>
+                    <string>Contents/MacOS/Lilu</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -353,13 +335,31 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>Lilu.kext</string>
+                    <string>VirtualSMC.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.2 | Lilu.kext</string>
+                    <string>V1.3.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/Lilu</string>
+                    <string>Contents/MacOS/VirtualSMC</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>AirportItlwm.kext</string>
+                    <key>Comment</key>
+                    <string>V2.1.0 | AirportItlwm.kext</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/AirportItlwm</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -479,24 +479,6 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>USBInjectAll.kext</string>
-                    <key>Comment</key>
-                    <string>V0.7.8 | USBInjectAll.kext</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/USBInjectAll</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
                     <string>VerbStub.kext</string>
                     <key>Comment</key>
                     <string>V1.0.3</string>
@@ -504,24 +486,6 @@
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/VerbStub</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>VirtualSMC.kext</string>
-                    <key>Comment</key>
-                    <string>V1.3.0</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/VirtualSMC</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -803,24 +767,6 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>IntelBTPatcher.kext</string>
-                    <key>Comment</key>
-                    <string>V2.2.0 | IntelBTPatcher.kext</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/IntelBTPatcher</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
                     <string>VoodooI2C.kext</string>
                     <key>Comment</key>
                     <string>V2.7</string>
@@ -846,6 +792,42 @@
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/VoodooI2CHID</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>USBToolBox.kext</string>
+                    <key>Comment</key>
+                    <string>V1.1.1</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/USBToolBox</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>UTBMap.kext</string>
+                    <key>Comment</key>
+                    <string>V1.1</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string></string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -1071,7 +1053,7 @@
                 <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
                 <dict>
                     <key>boot-args</key>
-                    <string>watchdog=0 igfxonln=1 -igfxblr -noDC9 igfxfw=2 igfxagdc=0 -cdfon keepsyms=1 swd_panic=1 forceRenderStandby=0 alc-verbs=1 uia_exclude=HS04;HS06;HS07;HS08;HS10;HS11;HS12;HS13;USR1;USR2;SS02;SS03;SS05;SS06;SS07;SS08</string>
+                    <string>watchdog=0 igfxonln=1 -igfxblr -noDC9 igfxfw=2 igfxagdc=0 -cdfon keepsyms=1 swd_panic=1 forceRenderStandby=0 alc-verbs=1</string>
                     <key>csr-active-config</key>
                     <data>/w8AAA==</data>
                     <key>prev-lang:kbd</key>
@@ -1114,7 +1096,7 @@
                 <key>AdviseFeatures</key>
                 <true/>
                 <key>MLB</key>
-                <string>C02135200GUN9PR1M</string>
+                <string>C02021500GU00008C</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
@@ -1126,11 +1108,11 @@
                 <key>SystemMemoryStatus</key>
                 <string>Upgradable</string>
                 <key>SystemProductName</key>
-                <string>MacBookPro16,1</string>
+                <string>MacBookPro16,4</string>
                 <key>SystemSerialNumber</key>
-                <string>C02G9AZ7MD6N</string>
+                <string>C02CR0NXMD6T</string>
                 <key>SystemUUID</key>
-                <string>62628836-F0A1-4807-A9C0-80AE8FFB074F</string>
+                <string>8A642A50-AA43-4002-B148-416744E413C9</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
@@ -1288,7 +1270,7 @@
                 <key>PointerSupport</key>
                 <false/>
                 <key>PointerSupportMode</key>
-                <string></string>
+                <string>ASUS</string>
                 <key>TimerResolution</key>
                 <integer>50000</integer>
             </dict>
